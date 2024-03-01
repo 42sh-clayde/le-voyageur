@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultats</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/55ce93407b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/55ce93407b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="pb-3">
+        <header class="navbar navbar-expand-md navbar-light  mx-4 pb-3 mt-3">
+            <div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" style="width: 10rem;">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse sticky-top" id="navbar-content">
+                <ul class="navbar-nav fw-bold ms-auto" id="navbarItems">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="reservation.html">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#account"><i class="fa-solid fa-user" style="color: #000000;"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+<div class="container mt-3">
+    <form action="" class="row justify-content-center">
+        <div class="col-md-3 col-sm-6 mb-2">
+            <select class="form-control rounded-pill" id="depart" name="depart" required>
+                <option value="">--Ville de départ--</option>
+                <option value="lbv">Libreville</option>
+                <option value="pog">Port-Gentil</option>
+                <option value="mla">Mouila</option>
+                <option value="km">Koulamoutou</option>
+                <option value="oye">Oyem</option>
+                <option value="fgm">Fougamou</option>
+            </select>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-2">
+            <select class="form-control rounded-pill" id="destination" name="destination" required>
+                <option value="">--Ville d'arrivée--</option>
+                <option value="lbv">Libreville</option>
+                <option value="pog">Port-Gentil</option>
+                <option value="mla">Mouila</option>
+                <option value="km">Koulamoutou</option>
+                <option value="oye">Oyem</option>
+                <option value="fgm">Fougamou</option>
+            </select>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-2">
+            <input type="date" class="form-control rounded-pill" name="" id="date" required>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-2">
+            <select class="form-control rounded-pill" id="transport" name="transport" required>
+                <option value="">--Transport--</option>
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+                <option value="boat">Bateau</option>
+            </select>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-2">
+            <input type="submit" class="btn btn-primary rounded-pill btn-block mt-3" value="Recherche" name="search">
+        </div>
+    </form>
+</div>
+
+<hr>
+
+<div class="container mt-5">
+    <div class="card bg-transparent mb-3">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <img class="rounded-circle img-fluid" src="/images/téléchargement.jpeg" alt="" srcset="">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">Libreville - Makokou.</p>
+                    <p class="card-text text-center">17/02/2024 A 15h30</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">20.000f cfa / adulte.</p>
+                    <p class="card-text text-center">15.000f cfa / enfant</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">Major transport</p>
+                    <p class="card-text text-center text-danger">4 places restantes</p>
+                </div>
+            </div>
+            <div class="text-center ">
+                <input type="submit" class="btn btn-primary rounded-pill" value="Acheter votre billet" name="a">
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-transparent mb-3">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <img class="rounded-circle img-fluid" src="/images/téléchargement.jpeg" alt="" srcset="">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">Libreville - Makokou.</p>
+                    <p class="card-text text-center">17/02/2024 A 15h30</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">20.000f cfa / adulte.</p>
+                    <p class="card-text text-center">15.000f cfa / enfant</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <p class="card-text text-center">Major transport</p>
+                    <p class="card-text text-center text-danger">4 places restantes</p>
+                </div>
+            </div>
+            <div class="text-center ">
+                <input type="submit" class="btn btn-primary rounded-pill" value="Acheter votre billet" name="a">
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="/js/script.js" defer></script>
+</html>
